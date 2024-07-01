@@ -3,7 +3,7 @@ import { Page, Card, Button } from "@shopify/polaris";
 import Offers from "./Offers";
 import { Mutation } from "@tanstack/react-query";
 import { WalletButton } from "./wagmi/WalletButton";
-import './App.css';
+import './index.css';
 
 const OFFERS = [
   {
@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <Page title='Shopify Base App' className='centered'>
-      <Card sectioned>
+      <Card sectioned className='content'>
       <WalletButton handleSuccess={handleSuccess} handleError={handleError}>
         { !hasToken && <ApiKeyForm onApiKey={onApiKey}/> }
         <Offers offers={OFFERS} /> 
