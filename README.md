@@ -1,4 +1,4 @@
-# Onchain Summer Hackathon 
+# Onchain Summer Buildathon 
 This project integrate Base Smart Wallet into UTU SDK with Shopify Polaris on React together with a smart contract on Sepolia Base
 
 ## Frontend 
