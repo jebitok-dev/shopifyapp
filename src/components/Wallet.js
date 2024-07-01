@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { useAccount, useConnect, useDisconnect } from "wagmi";
-import { coinbaseWallet } from "wagmi/connectors";
+// import { coinbaseWallet } from "wagmi/connectors";
 
-export default function Wallet() {
+/* export default function Wallet() {
     const { address, isConnected} = useAccount();
     const { connect } = useConnect({
         connector: coinbaseWallet({ appName: 'Wagmi', preference: 'smartWalletOnly'})
@@ -28,4 +28,4 @@ export default function Wallet() {
             )}
         </div>
     )
-}
+} */

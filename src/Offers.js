@@ -11,7 +11,6 @@ export default function Offers({ offers }) {
                         offers.map(offer => 
                             <li className='offer' key={offer.id}>
                                 <div>{offer.name}</div>
-                                <x-utu-recommendation target-uuid={offer.id} style={{marginTop: "-20px"}} />
                                 <br/><br/><br/><br/>
                                 <x-utu-feedback-details-popup target-uuid={offer.id}/>
                                 <x-utu-feedback-form-popup source-uuid="user-1" target-uuid={offer.id}
